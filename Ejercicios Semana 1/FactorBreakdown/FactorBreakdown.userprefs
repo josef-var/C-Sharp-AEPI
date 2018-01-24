@@ -1,0 +1,17 @@
+﻿<Properties StartupConfiguration="{2A016F87-6FDE-4E08-9D9C-05E66B5DBD6C}|Default">
+  <MonoDevelop.Ide.ItemProperties.FactorBreakdown PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="FactorBreakdown/Breakdown.cs">
+    <Files>
+      <File FileName="FactorBreakdown/Program.cs" Line="17" Column="78" />
+      <File FileName="FactorBreakdown/Breakdown.cs" Line="8" Column="19" />
+      <File FileName="../ConsoleApp1/ConsoleApp1/Perchero.cs" Line="13" Column="1" />
+      <File FileName="../ConsoleApp1/ConsoleApp1/Program.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>

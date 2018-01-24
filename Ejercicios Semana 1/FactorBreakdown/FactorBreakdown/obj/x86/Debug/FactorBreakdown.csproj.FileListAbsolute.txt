@@ -1,0 +1,11 @@
+/home/manjaro/Projects/FactorBreakdown/FactorBreakdown/bin/Debug/FactorBreakdown.exe
+/home/manjaro/Projects/FactorBreakdown/FactorBreakdown/bin/Debug/FactorBreakdown.pdb
+/home/manjaro/Projects/FactorBreakdown/FactorBreakdown/obj/x86/Debug/FactorBreakdown.csproj.CoreCompileInputs.cache
+/home/manjaro/Projects/FactorBreakdown/FactorBreakdown/obj/x86/Debug/FactorBreakdown.exe
+/home/manjaro/Projects/FactorBreakdown/FactorBreakdown/obj/x86/Debug/FactorBreakdown.pdb
+C:\Users\Josef\source\repos\FactorBreakdown\FactorBreakdown\bin\Debug\FactorBreakdown.exe
+C:\Users\Josef\source\repos\FactorBreakdown\FactorBreakdown\bin\Debug\FactorBreakdown.pdb
+C:\Users\Josef\source\repos\FactorBreakdown\FactorBreakdown\obj\x86\Debug\FactorBreakdown.csproj.CoreCompileInputs.cache
+C:\Users\Josef\source\repos\FactorBreakdown\FactorBreakdown\obj\x86\Debug\FactorBreakdown.exe
+C:\Users\Josef\source\repos\FactorBreakdown\FactorBreakdown\obj\x86\Debug\FactorBreakdown.pdb
+C:\Users\Josef\source\repos\FactorBreakdown\FactorBreakdown\obj\x86\Debug\FactorBreakdown.csprojResolveAssemblyReference.cache

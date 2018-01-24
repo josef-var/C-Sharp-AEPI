@@ -1,0 +1,7 @@
+C:\Users\Josef\source\repos\Saludador\Saludador\obj\Debug\Saludador.csprojResolveAssemblyReference.cache
+C:\Users\Josef\source\repos\Saludador\Saludador\obj\Debug\Saludador.csproj.CoreCompileInputs.cache
+C:\Users\Josef\source\repos\Saludador\Saludador\bin\Debug\Saludador.exe.config
+C:\Users\Josef\source\repos\Saludador\Saludador\bin\Debug\Saludador.exe
+C:\Users\Josef\source\repos\Saludador\Saludador\bin\Debug\Saludador.pdb
+C:\Users\Josef\source\repos\Saludador\Saludador\obj\Debug\Saludador.exe
+C:\Users\Josef\source\repos\Saludador\Saludador\obj\Debug\Saludador.pdb

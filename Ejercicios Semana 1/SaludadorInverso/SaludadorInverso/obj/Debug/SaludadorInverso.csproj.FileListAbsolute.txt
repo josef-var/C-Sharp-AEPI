@@ -1,0 +1,7 @@
+C:\Users\Josef\source\repos\SaludadorInverso\SaludadorInverso\bin\Debug\SaludadorInverso.exe.config
+C:\Users\Josef\source\repos\SaludadorInverso\SaludadorInverso\bin\Debug\SaludadorInverso.exe
+C:\Users\Josef\source\repos\SaludadorInverso\SaludadorInverso\bin\Debug\SaludadorInverso.pdb
+C:\Users\Josef\source\repos\SaludadorInverso\SaludadorInverso\obj\Debug\SaludadorInverso.csprojResolveAssemblyReference.cache
+C:\Users\Josef\source\repos\SaludadorInverso\SaludadorInverso\obj\Debug\SaludadorInverso.csproj.CoreCompileInputs.cache
+C:\Users\Josef\source\repos\SaludadorInverso\SaludadorInverso\obj\Debug\SaludadorInverso.exe
+C:\Users\Josef\source\repos\SaludadorInverso\SaludadorInverso\obj\Debug\SaludadorInverso.pdb

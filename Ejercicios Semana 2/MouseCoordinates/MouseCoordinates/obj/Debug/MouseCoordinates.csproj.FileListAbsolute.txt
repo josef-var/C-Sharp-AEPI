@@ -1,0 +1,20 @@
+C:\Users\Josef\source\repos\MouseCoordinates\MouseCoordinates\obj\Debug\MouseCoordinates.csprojResolveAssemblyReference.cache
+C:\Users\Josef\source\repos\MouseCoordinates\MouseCoordinates\obj\Debug\MouseCoordinates.Form1.resources
+C:\Users\Josef\source\repos\MouseCoordinates\MouseCoordinates\obj\Debug\MouseCoordinates.Properties.Resources.resources
+C:\Users\Josef\source\repos\MouseCoordinates\MouseCoordinates\obj\Debug\MouseCoordinates.csproj.GenerateResource.Cache
+C:\Users\Josef\source\repos\MouseCoordinates\MouseCoordinates\obj\Debug\MouseCoordinates.csproj.CoreCompileInputs.cache
+C:\Users\Josef\source\repos\MouseCoordinates\MouseCoordinates\bin\Debug\MouseCoordinates.exe.config
+C:\Users\Josef\source\repos\MouseCoordinates\MouseCoordinates\bin\Debug\MouseCoordinates.exe
+C:\Users\Josef\source\repos\MouseCoordinates\MouseCoordinates\bin\Debug\MouseCoordinates.pdb
+C:\Users\Josef\source\repos\MouseCoordinates\MouseCoordinates\obj\Debug\MouseCoordinates.exe
+C:\Users\Josef\source\repos\MouseCoordinates\MouseCoordinates\obj\Debug\MouseCoordinates.pdb
+C:\Users\Josef\source\repos\Ejercicios Semana 2\MouseCoordinates\MouseCoordinates\bin\Debug\MouseCoordinates.exe.config
+C:\Users\Josef\source\repos\Ejercicios Semana 2\MouseCoordinates\MouseCoordinates\bin\Debug\MouseCoordinates.exe
+C:\Users\Josef\source\repos\Ejercicios Semana 2\MouseCoordinates\MouseCoordinates\bin\Debug\MouseCoordinates.pdb
+C:\Users\Josef\source\repos\Ejercicios Semana 2\MouseCoordinates\MouseCoordinates\obj\Debug\MouseCoordinates.csprojResolveAssemblyReference.cache
+C:\Users\Josef\source\repos\Ejercicios Semana 2\MouseCoordinates\MouseCoordinates\obj\Debug\MouseCoordinates.Form1.resources
+C:\Users\Josef\source\repos\Ejercicios Semana 2\MouseCoordinates\MouseCoordinates\obj\Debug\MouseCoordinates.Properties.Resources.resources
+C:\Users\Josef\source\repos\Ejercicios Semana 2\MouseCoordinates\MouseCoordinates\obj\Debug\MouseCoordinates.csproj.GenerateResource.Cache
+C:\Users\Josef\source\repos\Ejercicios Semana 2\MouseCoordinates\MouseCoordinates\obj\Debug\MouseCoordinates.csproj.CoreCompileInputs.cache
+C:\Users\Josef\source\repos\Ejercicios Semana 2\MouseCoordinates\MouseCoordinates\obj\Debug\MouseCoordinates.exe
+C:\Users\Josef\source\repos\Ejercicios Semana 2\MouseCoordinates\MouseCoordinates\obj\Debug\MouseCoordinates.pdb

@@ -1,0 +1,20 @@
+C:\Users\Josef\source\repos\Kaprekar\Kaprekar\bin\Debug\Kaprekar.exe.config
+C:\Users\Josef\source\repos\Kaprekar\Kaprekar\bin\Debug\Kaprekar.exe
+C:\Users\Josef\source\repos\Kaprekar\Kaprekar\bin\Debug\Kaprekar.pdb
+C:\Users\Josef\source\repos\Kaprekar\Kaprekar\obj\Debug\Kaprekar.csprojResolveAssemblyReference.cache
+C:\Users\Josef\source\repos\Kaprekar\Kaprekar\obj\Debug\Kaprekar.Kaprekar.resources
+C:\Users\Josef\source\repos\Kaprekar\Kaprekar\obj\Debug\Kaprekar.Properties.Resources.resources
+C:\Users\Josef\source\repos\Kaprekar\Kaprekar\obj\Debug\Kaprekar.csproj.GenerateResource.Cache
+C:\Users\Josef\source\repos\Kaprekar\Kaprekar\obj\Debug\Kaprekar.csproj.CoreCompileInputs.cache
+C:\Users\Josef\source\repos\Kaprekar\Kaprekar\obj\Debug\Kaprekar.exe
+C:\Users\Josef\source\repos\Kaprekar\Kaprekar\obj\Debug\Kaprekar.pdb
+C:\Users\Josef\source\repos\Ejercicios Propuestos\Ejercicios Semana 3\Kaprekar\Kaprekar\bin\Debug\Kaprekar.exe.config
+C:\Users\Josef\source\repos\Ejercicios Propuestos\Ejercicios Semana 3\Kaprekar\Kaprekar\bin\Debug\Kaprekar.exe
+C:\Users\Josef\source\repos\Ejercicios Propuestos\Ejercicios Semana 3\Kaprekar\Kaprekar\bin\Debug\Kaprekar.pdb
+C:\Users\Josef\source\repos\Ejercicios Propuestos\Ejercicios Semana 3\Kaprekar\Kaprekar\obj\Debug\Kaprekar.csprojResolveAssemblyReference.cache
+C:\Users\Josef\source\repos\Ejercicios Propuestos\Ejercicios Semana 3\Kaprekar\Kaprekar\obj\Debug\Kaprekar.Kaprekar.resources
+C:\Users\Josef\source\repos\Ejercicios Propuestos\Ejercicios Semana 3\Kaprekar\Kaprekar\obj\Debug\Kaprekar.Properties.Resources.resources
+C:\Users\Josef\source\repos\Ejercicios Propuestos\Ejercicios Semana 3\Kaprekar\Kaprekar\obj\Debug\Kaprekar.csproj.GenerateResource.Cache
+C:\Users\Josef\source\repos\Ejercicios Propuestos\Ejercicios Semana 3\Kaprekar\Kaprekar\obj\Debug\Kaprekar.csproj.CoreCompileInputs.cache
+C:\Users\Josef\source\repos\Ejercicios Propuestos\Ejercicios Semana 3\Kaprekar\Kaprekar\obj\Debug\Kaprekar.exe
+C:\Users\Josef\source\repos\Ejercicios Propuestos\Ejercicios Semana 3\Kaprekar\Kaprekar\obj\Debug\Kaprekar.pdb

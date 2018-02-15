@@ -1,0 +1,35 @@
+1- Número de Kaprekar
+	- Pedir al usuario un número de 4 dígitos con alguna cifra distinta N
+	- Se ordena de forma creciente C y decreciente D
+	- Se calcula D - C
+	- Con ese número se hacen las mismas operaciones
+	- En algún momento, N = D - C, con lo que ya siempre se repetirá el número
+	- NOTA: Si un número tuviese MENOS de 4 dígitos, se complementaría con CEROS por la izquierda
+	- El sistema devuelve 
+		- La operación que se hace está haciendo un listBox
+		- el número de iteraciones necesarias para conseguirlo
+		- El valor de N
+
+	- Ejemplo: El número que elige el usuario es N=3524:
+	    5432 – 2345 = 3087
+	    8730 – 0378 = 8352
+	    8532 – 2358 = 6174
+	    7641 – 1467 = 6174 
+	Se ha hallado en 3 iteraciones y el número es 6174
+
+2.- Gestión del inventario de un bar (lamento ser pesado con este tema...)
+    - DESCRIPCIÓN:
+	- Será una lista de objetos de productos con propiedades: Nombre (Queso) / Familia (Lácteos) / Calorías / Es-Sin-Gluten 
+	- Tendrán un ID que se podrá leer pero no escribir: la aplicación lo da automáticamente BUSCANDO EL PRIMER HUECO LIBRE (si por ejemplo, están ya los item 1, 2 y 4 porque se borró el 3, la aplicación le dará al siguiente item creado ese número 3)
+    - HACER:
+        - Separando la capa de visualización (proyecto WinForms) de la de negocio (proyecto ClassLibrary)
+	- Diseñar el objeto 'Producto' que se va a usar
+	- Crear el CRUD (crear, leer por id, actualizar y borrar por id) SIGUIENDO un interface que vosotros mismos diseñáis y lo implementa la clase de negocio
+	- Hacer que se sincronicen las acciones con un Listbox que muestre la lista de contactos al usuario con SOLO el Id de cada contacto
+	- Importar y exportar a un fichero de texto en el formato que elija el usuario
+		- En CSV (separado con ',' las propiedades y con ';' los objetos)
+		- En XML
+
+	He dejado un proyecto muy parecido aquí; gestiona una agenda con contactos. Lo he ampliado con dos controles OpenFileDialog y SaveFileDialog, para manejar la importación y exportación más elegantemente. La he hecho solo como XML, la de JSON la hicimos en clase. 
+
+	Como siempre, asumimos que el usuario es buena gente y no va a intentar jorobar la aplicación; no hay que implementar controles de entrada de datos

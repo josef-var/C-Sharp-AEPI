@@ -1,0 +1,10 @@
+C:\Users\Josef\source\repos\InventarioBar\InventarioBar\bin\Debug\InventarioBar.exe.config
+C:\Users\Josef\source\repos\InventarioBar\InventarioBar\bin\Debug\InventarioBar.exe
+C:\Users\Josef\source\repos\InventarioBar\InventarioBar\bin\Debug\InventarioBar.pdb
+C:\Users\Josef\source\repos\InventarioBar\InventarioBar\obj\Debug\InventarioBar.csprojResolveAssemblyReference.cache
+C:\Users\Josef\source\repos\InventarioBar\InventarioBar\obj\Debug\InventarioBar.Form1.resources
+C:\Users\Josef\source\repos\InventarioBar\InventarioBar\obj\Debug\InventarioBar.Properties.Resources.resources
+C:\Users\Josef\source\repos\InventarioBar\InventarioBar\obj\Debug\InventarioBar.csproj.GenerateResource.Cache
+C:\Users\Josef\source\repos\InventarioBar\InventarioBar\obj\Debug\InventarioBar.csproj.CoreCompileInputs.cache
+C:\Users\Josef\source\repos\InventarioBar\InventarioBar\obj\Debug\InventarioBar.exe
+C:\Users\Josef\source\repos\InventarioBar\InventarioBar\obj\Debug\InventarioBar.pdb

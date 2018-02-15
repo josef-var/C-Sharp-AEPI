@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Numero aleatorio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <button type="button" class="btn btn-secondary" id="Back">Go Back</button>
+    <span id="min">Show min</span>
+    <span id="max">Show max</span>
+    <p></p>
+    <form>
+        <div class="container-fluid text-center">
+            <p>
+                <div class="row">
+                    <div class="col-1"></div>
+                    <div class="col-3">
+                        <button type="button" class="btn btn-secondary" id="NewGame">New Game</button>
+                    </div>
+                </div>
+            </p>
+            <div class="row">
+                <div class="col-1"></div>
+                <div class="col-3">
+                    <label for="usrNr">Choose your 4 digit number</label>
+                    <input type="text" class="form-control text-center" id="usrNr" pattern="^[0-9]{4}$" maxlength="4" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-1"></div>
+                <div class="col-3">
+                    <label for="pcnr">Is this your number?</label>
+                    <input type="number" class="form-control text-center" id="pcnr" disabled />
+                </div>
+            </div>
+            <p>
+                <div class="row">
+                    <div class="col-1"></div>
+                    <div class="col-3">
+                        <button type="button" class="btn btn-outline-secondary" id="Lesser">Lesser</button>
+                        <button type="button" class="btn btn-outline-secondary" id="Greater">Greater</button>
+                    </div>
+                </div>
+            </p>
+            <div class="row">
+                <div class="col-2"></div>
+                <div class="col-1">
+                    <label for="tries">Attempts</label>
+                    <input type="text" class="form-control text-center" id="tries" disabled />
+                </div>
+            </div>
+        </div>
+    </form>
+    <script src="./numeroaleatorio.js"></script>
+</body>
+</html>

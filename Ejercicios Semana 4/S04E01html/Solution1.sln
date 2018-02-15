@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2020
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{34B023A6-491A-40EF-B0AF-7A0722BDAE8A}"
+	ProjectSection(SolutionItems) = preProject
+		calendario.html = calendario.html
+		calendario.js = calendario.js
+		estilo.css = estilo.css
+		index.html = index.html
+		numeroaleatorio.html = numeroaleatorio.html
+		numeroaleatorio.js = numeroaleatorio.js
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EE686921-550C-4778-9A08-DB7DC4629B90}
+	EndGlobalSection
+EndGlobal

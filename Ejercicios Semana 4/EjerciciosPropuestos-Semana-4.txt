@@ -1,0 +1,40 @@
+Repositorio de aplicaciones chorra. 
+
+	- Creamos una página HTML (index.html) en donde se crea un listado de las aplicaciones que podemos ejecutar. Serán links que llevarán a la página html en donde realmente se ejecutarán. Son dos: 
+
+		- Juego del número aleatorio
+			- Pasar a Javascript el juego que ya se realizó en Windows Forms
+
+		- Calendario
+			- Al cargarse la página se puede ver:
+				- un desplegable con los meses del año (en donde está seleccionado el mes actual)
+				- Un input text donde se puede poner el año (en donde está escrito el año actual)
+				- Un botón OK
+				- Un calendario de todo el mes elegido
+			- El usuario puede elegir otro mes y otro año y al dar al Ok, se renderizará el calendario elegido
+			- Intentad controlar que no salgan semanas en donde ningún día corresponde a ese mes
+					
+	- Todos ellos tendrán al final un link para volver a la página índice anterior
+
+	- TODAS las páginas comparten el mismo fichero css (estilo.css) pero distintos ficheros javascript 
+		- El estilo puede ser libre, sorprendedme con el artista que lleváis dentro, pero usad al menos 
+			- una class (por ejemplo, algo que marque de forma distinta los campos obligatorios de rellenar por el usuario)
+			- Un selector de tag (por ejemplo body, para poner el tipo de letra de toda la aplicación)
+
+En resumen, una vez acabada la práctica, tendremos en una carpeta con:
+	- index.html
+	- numeroaleatorio.html
+	- calendario.html
+	- numeroaleatorio.js
+	- calendario.js
+	- estilo.css
+
+NOTAS: 
+	- Alguna pista de javascript que se me ocurren para las aplicaciones:
+		- elemento.innerHTML para ajustar el html de un elemento que hemos seleccionado con document.getElementById 
+		- con el atributo onClick se relaciona el evento click con la función que se desea
+		- Math.rnd() para generar un número aleatorio
+		- var fecha = new Date(año, mes, dia) y otraFecha.SetDate(viejaFecha) para manejar fechas
+	- Empezad por el index.html y cómo debe navegarse entre las páginas
+
+	

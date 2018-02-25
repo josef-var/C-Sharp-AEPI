@@ -1,0 +1,84 @@
+﻿@model IEnumerable<ExamenFinal.Models.MultChoice>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_LayoutTeacher.cshtml";
+}
+
+<h2>Index</h2>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Question)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.AnswerA)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.HasTickA)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.AnswerB)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.HasTickB)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.AnswerC)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.HasTickC)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.AnswerD)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.HasTickD)
+                </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Question)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AnswerA)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.HasTickA)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AnswerB)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.HasTickB)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AnswerC)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.HasTickC)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AnswerD)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.HasTickD)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

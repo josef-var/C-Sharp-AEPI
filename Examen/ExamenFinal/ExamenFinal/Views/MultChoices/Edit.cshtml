@@ -1,0 +1,83 @@
+﻿@model ExamenFinal.Models.MultChoice
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Views/Shared/_LayoutTeacher.cshtml";
+}
+
+<h2>Edit</h2>
+
+<h4>MultChoice</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+            <div class="form-group">
+                <label asp-for="Question" class="control-label"></label>
+                <input asp-for="Question" class="form-control" />
+                <span asp-validation-for="Question" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="AnswerA" class="control-label"></label>
+                <input asp-for="AnswerA" class="form-control" />
+                <span asp-validation-for="AnswerA" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <div class="checkbox">
+                    <label>
+                        <input asp-for="HasTickA" /> @Html.DisplayNameFor(model => model.HasTickA)
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label asp-for="AnswerB" class="control-label"></label>
+                <input asp-for="AnswerB" class="form-control" />
+                <span asp-validation-for="AnswerB" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <div class="checkbox">
+                    <label>
+                        <input asp-for="HasTickB" /> @Html.DisplayNameFor(model => model.HasTickB)
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label asp-for="AnswerC" class="control-label"></label>
+                <input asp-for="AnswerC" class="form-control" />
+                <span asp-validation-for="AnswerC" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <div class="checkbox">
+                    <label>
+                        <input asp-for="HasTickC" /> @Html.DisplayNameFor(model => model.HasTickC)
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label asp-for="AnswerD" class="control-label"></label>
+                <input asp-for="AnswerD" class="form-control" />
+                <span asp-validation-for="AnswerD" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <div class="checkbox">
+                    <label>
+                        <input asp-for="HasTickD" /> @Html.DisplayNameFor(model => model.HasTickD)
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-default" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

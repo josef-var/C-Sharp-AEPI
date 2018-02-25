@@ -1,0 +1,63 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<h1>Implementación de Examen teórico</h1>
+Vamos a realizar en .Net Core 2.0, con MVC y Entity Framework 2.0, una aplicación para CONSTRUIR y EJECUTAR pruebas teóricas. Tendrá dos funcionalidades fundamentales en función de quién se conecta
+<div class="row">
+    <div class="col-md-4">
+        <h2>Please Choose</h2>
+        <a class="btn btn-default" asp-controller="Teachers" asp-action="Index">
+            Teacher
+        </a>
+        <a class="btn btn-default" asp-controller="Students" asp-action="Index">
+            Student
+        </a>
+    </div>
+    <div class="col-md-4">
+        <h2>Profesor</h2>
+        <ul>
+            <li>Se conecta a http://miservidor.com/profesor </li>
+            <li>Puede hacer CRUD para conseguir un listado de preguntas tipo test con 4 respuestas</li>
+            <li>Debe inicializar la DB con 10 (y solo 10) preguntas</li>
+        </ul>
+    </div>
+    <div class="col-md-4">
+        <h2>Alumno</h2>
+        <ul>
+            <li>Se conecta a http://miservidor.com/alumno</li>
+            <li>Le aparece el cuestionario de 10 preguntas que ha mantenido su profesor</li>
+            <ul>
+                <li>Cuatro radiobuttons para cada respuesta</li>
+                <li>Un botón de enviar formulario abajo</li>
+            </ul>
+            <li>No exige que se rellenen todos los campos ni es necesario hacer comprobaciones</li>
+            <li>Al apretar el botón, aparece LA MISMA PÁGINA rellena, pero abajo pone en rojo la nota numérica de la evaluación</li>
+            <ul>
+                <li>1 punto por cada respuesta correcta</li>
+                <li>-1/3 por cada respuesta incorrecta</li>
+            </ul>
+            <li>Si cambia las respuestas y vuelve a enviarlas, el proceso es el mismo, claro</li>
+        </ul>
+    </div>
+</div>
+<h2>Look&Feel y navegación</h2>
+<ul>
+    <li>En la cabecera se puede pasar de un rol a otro (de profesor a alumno y viceversa) mediante links</li>
+    <li>El fondo del formulario CRUD para el profesor será de un color ténue y el de alumno de otro distinto</li>
+</ul>
+
+Hay muchas formas de mejorar la aplicación, por si la hacéis rápìdo y os aburrís. SOLO LO PONGO POR ESO, quien haga bien lo anterior tiene MÁXIMA PUNTUACIÓN
+<ul>
+    <li>Un botón para que el alumno limpie todas las respuestas</li>
+    <li>Cambiar imagen de cabecera según el controller</li>
+    <li>Generalizar las preguntas</li>
+    <ul>
+        <li>Que puedan ser menos de 4 respuestas dependientemente de la pregunta</li>
+        <li>Que la puntuación que se resta sea acorde a ese número de respuestas para ‘compensar’ la aleatoriedad</li>
+        <li>(nivelazo!) Que haya preguntas multi-respuesta</li>
+    </ul>
+</ul>
+
+
+El examen es intencionadamente un poco más complejo que lo que hemos hecho en clase, entiendo que no todo el mundo llegue a completarlo, ¡pero intentadlo! La parte del profesor sale casi sola en cuanto implementéis el modelo que hay detrás del ejercicio. 

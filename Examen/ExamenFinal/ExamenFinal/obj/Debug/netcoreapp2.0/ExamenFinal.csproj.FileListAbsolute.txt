@@ -1,0 +1,11 @@
+C:\Users\Josef\source\repos\Curso C Sharp AEPI\Ejercicios Propuestos Solucionados\Examen\ExamenFinal\ExamenFinal\bin\Debug\netcoreapp2.0\ExamenFinal.deps.json
+C:\Users\Josef\source\repos\Curso C Sharp AEPI\Ejercicios Propuestos Solucionados\Examen\ExamenFinal\ExamenFinal\bin\Debug\netcoreapp2.0\ExamenFinal.runtimeconfig.json
+C:\Users\Josef\source\repos\Curso C Sharp AEPI\Ejercicios Propuestos Solucionados\Examen\ExamenFinal\ExamenFinal\bin\Debug\netcoreapp2.0\ExamenFinal.runtimeconfig.dev.json
+C:\Users\Josef\source\repos\Curso C Sharp AEPI\Ejercicios Propuestos Solucionados\Examen\ExamenFinal\ExamenFinal\bin\Debug\netcoreapp2.0\ExamenFinal.dll
+C:\Users\Josef\source\repos\Curso C Sharp AEPI\Ejercicios Propuestos Solucionados\Examen\ExamenFinal\ExamenFinal\bin\Debug\netcoreapp2.0\ExamenFinal.pdb
+C:\Users\Josef\source\repos\Curso C Sharp AEPI\Ejercicios Propuestos Solucionados\Examen\ExamenFinal\ExamenFinal\obj\Debug\netcoreapp2.0\ExamenFinal.csprojResolveAssemblyReference.cache
+C:\Users\Josef\source\repos\Curso C Sharp AEPI\Ejercicios Propuestos Solucionados\Examen\ExamenFinal\ExamenFinal\obj\Debug\netcoreapp2.0\ExamenFinal.csproj.CoreCompileInputs.cache
+C:\Users\Josef\source\repos\Curso C Sharp AEPI\Ejercicios Propuestos Solucionados\Examen\ExamenFinal\ExamenFinal\obj\Debug\netcoreapp2.0\ExamenFinal.AssemblyInfoInputs.cache
+C:\Users\Josef\source\repos\Curso C Sharp AEPI\Ejercicios Propuestos Solucionados\Examen\ExamenFinal\ExamenFinal\obj\Debug\netcoreapp2.0\ExamenFinal.AssemblyInfo.cs
+C:\Users\Josef\source\repos\Curso C Sharp AEPI\Ejercicios Propuestos Solucionados\Examen\ExamenFinal\ExamenFinal\obj\Debug\netcoreapp2.0\ExamenFinal.dll
+C:\Users\Josef\source\repos\Curso C Sharp AEPI\Ejercicios Propuestos Solucionados\Examen\ExamenFinal\ExamenFinal\obj\Debug\netcoreapp2.0\ExamenFinal.pdb

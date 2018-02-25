@@ -1,0 +1,30 @@
+﻿@model IEnumerable<ExamenFinal.Models.MultChoice>
+
+@{
+    ViewData["Title"] = "Answers";
+    Layout = "~/Views/Shared/_LayoutStudent.cshtml";
+}
+
+<h2>Correct Answers</h2>
+<ol>
+    @foreach (var item in Model)
+    {
+    <li>
+        @Html.DisplayFor(modelItem => item.Question)
+        <ol type="a">
+
+            <li><input type="radio" name="@item.Id" id="@("A"+@item.Id)" value="@(item.HasTickA ? "Ayes" : "Ano")" @(item.HasTickA ? "checked" : "")> @item.AnswerA</li>
+            <li><input type="radio" name="@item.Id" id="@("B"+@item.Id)" value="@(item.HasTickB ? "Byes" : "Bno")" @(item.HasTickB ? "checked" : "")> @item.AnswerB</li>
+            <li><input type="radio" name="@item.Id" id="@("C"+@item.Id)" value="@(item.HasTickC ? "Cyes" : "Cno")" @(item.HasTickC ? "checked" : "")> @item.AnswerC</li>
+            <li><input type="radio" name="@item.Id" id="@("D"+@item.Id)" value="@(item.HasTickD ? "Dyes" : "Dno")" @(item.HasTickD ? "checked" : "")> @item.AnswerD</li>
+        </ol>
+    </li>
+
+    }
+</ol>
+
+@*Would not work as expected:
+<li>@Html.RadioButtonFor(modelItem => item.HasTickA, true) @Html.DisplayFor(modelItem => item.AnswerA)</li>
+<li>@Html.RadioButtonFor(modelItem => item.HasTickB, true) @Html.DisplayFor(modelItem => item.AnswerB)</li>
+<li>@Html.RadioButtonFor(modelItem => item.HasTickC, true) @Html.DisplayFor(modelItem => item.AnswerC)</li>
+<li>@Html.RadioButtonFor(modelItem => item.HasTickD, true) @Html.DisplayFor(modelItem => item.AnswerD)</li>*@

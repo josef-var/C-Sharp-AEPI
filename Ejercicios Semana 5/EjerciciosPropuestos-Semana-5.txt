@@ -1,0 +1,65 @@
+1.- El controller del Cinco
+
+	- Creamos un proyecto de aplicación web .net core MVC
+	- Creamos un nuevo Controller llamado "CincoController"
+		- Tiene acciones Suma, Resta, Producto, Division
+		- Devuelve una string en cada acción que toma el resultado de operar 5 con EL VALOR que se le ha pasado por parámetro 
+	- Así, 
+		- si ponemos http://localhost:xxx/cinco/suma/8, nos dará "8 + 5 = 13" en el browser
+		- si ponemos http://localhost:xxx/cinco/division/30, nos dará "30 / 5 = 6" en el browser
+
+*********************************************************************
+
+2.- EBAY
+
+- Debemos hacer un portal con los elementos que se pueden vender
+- Haremos un CRUD sobre una app web .net core
+- Usaremos una lista estática para persistencia de datos (en clase lo cambiaremos por Entity Framework)
+
+- Además: 
+	- Crearemos una API para informar de forma automatizada de nuestro catálogo (solo un método)
+	- Cuando se haga una petición GET a http://servidor.com/ebay/gimmeall le mandaremos por JSON todo el catálogo que en ese momento está disponible. 
+
+Modelo
+- Id para clasificar unívocamente los items
+- Nombre del artículo (requerido y de 3 a 20 caracteres)
+- Descripción del artículo (no requerida)
+- Puntuación que le da la comunidad (de 1 a 5 estrellas, requerido)
+- Indicar si está en oferta o no
+
+*********************************************************************
+
+Extra.- [NO ES PARA TODOS LOS PÚBLICOS!] Uso de DI y middlewares 
+
+	- Creamos un proyecto de aplicación web .net core VACIA
+
+	- Vamos a crear una clase de nombre "AccesoWeb"
+		- Recoge información de la primera vez que alguien se conectó a la aplicación web
+		- Se crea un interface (IAccesoWeb) que debe implementar la clase
+			- EscribeFecha(), que devuelve un string
+		- Propiedades: Id (int), Fecha (DateTime)
+		- Métodos: EscribeFecha(), que devuelve en string largo la fecha recogida
+
+	- Registramos esta clase en el contenedor de dependencias (que en .net es la colección Services, como sabemos) COMO SINGLETON
+
+	- Creamos un middleware (cutre)
+		- Recoge el singleton registrado como dependencia (ver NOTA-1)
+		- Le añade 1 a su Id
+		- Si la fecha no es de hoy, la actualiza. Si no, la deja como está
+		- Escribe en la respuesta Http el Id del objeto y la fecha con el método EscribeFecha(). Es lo que sacará al browser
+
+		- NOTA-1: No lo hemos visto en clase, pero para coger una dependencia del contenedor desde un middleware, usamos el HttpContext que viene inyectado como parámetro. Escribo el código que debe ser la primera línea del middleware. IAccesoWeb acceso = context.RequestServices.GetService<IAccesoWeb>();
+
+	- Enganchamos el middleware a la aplicación como nodo terminal (o sea, usando Run)
+
+	- AYUDA: Para hacerlo más rápido, podéis aprovechar el middleware que viene enganchado la aplicación (nada más generar el proyecto) mediante el Run (en donde solo imprime un "Hello World"). Entre las llaves, metéis la lógica que se pide y dentro del WriteAsync sustituis el "Hello World" por lo que se quiere imprimir
+
+	- Ejecutamos varias veces (dándole al F5, por ejemplo). Vemos que la fecha y hora no cambia. Mantiene la que registró al principio
+
+	- Cambiamos el servicio. En vez de SINGLETON ponemos que registre la clase como TRANSIENT
+
+	- Volvemos a ejecutar. Ahora si que cambia la hora!
+	
+	- NOTA-2: Luchadlo un poco, si no, he dejado el fichero Middleware.cs en esta misma carpeta, que os puede servir de inspiración
+
+

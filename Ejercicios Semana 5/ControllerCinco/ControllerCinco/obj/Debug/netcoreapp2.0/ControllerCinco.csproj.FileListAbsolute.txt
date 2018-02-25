@@ -1,0 +1,22 @@
+c:\users\josef\source\repos\ControllerCinco\ControllerCinco\bin\Debug\netcoreapp2.0\ControllerCinco.deps.json
+c:\users\josef\source\repos\ControllerCinco\ControllerCinco\bin\Debug\netcoreapp2.0\ControllerCinco.runtimeconfig.json
+c:\users\josef\source\repos\ControllerCinco\ControllerCinco\bin\Debug\netcoreapp2.0\ControllerCinco.runtimeconfig.dev.json
+c:\users\josef\source\repos\ControllerCinco\ControllerCinco\bin\Debug\netcoreapp2.0\ControllerCinco.dll
+c:\users\josef\source\repos\ControllerCinco\ControllerCinco\obj\Debug\netcoreapp2.0\ControllerCinco.csprojResolveAssemblyReference.cache
+c:\users\josef\source\repos\ControllerCinco\ControllerCinco\obj\Debug\netcoreapp2.0\ControllerCinco.csproj.CoreCompileInputs.cache
+c:\users\josef\source\repos\ControllerCinco\ControllerCinco\obj\Debug\netcoreapp2.0\ControllerCinco.AssemblyInfoInputs.cache
+c:\users\josef\source\repos\ControllerCinco\ControllerCinco\obj\Debug\netcoreapp2.0\ControllerCinco.AssemblyInfo.cs
+c:\users\josef\source\repos\ControllerCinco\ControllerCinco\bin\Debug\netcoreapp2.0\ControllerCinco.pdb
+c:\users\josef\source\repos\ControllerCinco\ControllerCinco\obj\Debug\netcoreapp2.0\ControllerCinco.dll
+c:\users\josef\source\repos\ControllerCinco\ControllerCinco\obj\Debug\netcoreapp2.0\ControllerCinco.pdb
+C:\Users\Josef\source\repos\Ejercicios Propuestos\Ejercicios Semana 5\ControllerCinco\ControllerCinco\bin\Debug\netcoreapp2.0\ControllerCinco.deps.json
+C:\Users\Josef\source\repos\Ejercicios Propuestos\Ejercicios Semana 5\ControllerCinco\ControllerCinco\bin\Debug\netcoreapp2.0\ControllerCinco.runtimeconfig.json
+C:\Users\Josef\source\repos\Ejercicios Propuestos\Ejercicios Semana 5\ControllerCinco\ControllerCinco\bin\Debug\netcoreapp2.0\ControllerCinco.runtimeconfig.dev.json
+C:\Users\Josef\source\repos\Ejercicios Propuestos\Ejercicios Semana 5\ControllerCinco\ControllerCinco\bin\Debug\netcoreapp2.0\ControllerCinco.dll
+C:\Users\Josef\source\repos\Ejercicios Propuestos\Ejercicios Semana 5\ControllerCinco\ControllerCinco\bin\Debug\netcoreapp2.0\ControllerCinco.pdb
+C:\Users\Josef\source\repos\Ejercicios Propuestos\Ejercicios Semana 5\ControllerCinco\ControllerCinco\obj\Debug\netcoreapp2.0\ControllerCinco.csprojResolveAssemblyReference.cache
+C:\Users\Josef\source\repos\Ejercicios Propuestos\Ejercicios Semana 5\ControllerCinco\ControllerCinco\obj\Debug\netcoreapp2.0\ControllerCinco.csproj.CoreCompileInputs.cache
+C:\Users\Josef\source\repos\Ejercicios Propuestos\Ejercicios Semana 5\ControllerCinco\ControllerCinco\obj\Debug\netcoreapp2.0\ControllerCinco.AssemblyInfoInputs.cache
+C:\Users\Josef\source\repos\Ejercicios Propuestos\Ejercicios Semana 5\ControllerCinco\ControllerCinco\obj\Debug\netcoreapp2.0\ControllerCinco.AssemblyInfo.cs
+C:\Users\Josef\source\repos\Ejercicios Propuestos\Ejercicios Semana 5\ControllerCinco\ControllerCinco\obj\Debug\netcoreapp2.0\ControllerCinco.dll
+C:\Users\Josef\source\repos\Ejercicios Propuestos\Ejercicios Semana 5\ControllerCinco\ControllerCinco\obj\Debug\netcoreapp2.0\ControllerCinco.pdb
